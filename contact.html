@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <title>The Priority Fold-A Priority Bike Product</title>
+  </head>
+  <body>
+      <div class="navbar-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="index.html">Priority Bike</a>
+                    <img src="navlogo.jpg" alt="navlogo">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="catalog.html">Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="cart.html">Cart</a>
+                              </li>
+                        <li class="nav-item dropdown active">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More Options
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="checkout.html">Checkout <span class="sr-only">(current)</span> </a>
+                            <a class="dropdown-item" href="contact.html">Contact Us</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+        </div>
+        <div class="whitetext nodown background-image2b jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4"><strong>Were excited to hear from you!</strong></h1>
+            </div>
+          </div>
+        <h1>Contact Us</h1>
+        <p class="centertext3"> <em>Please complete the form below, so we can provide quick and efficient service for any inquiries.</em></p>
+        <form class="formpadding needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="name">Full name*:</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Full name" required>
+            <div class="invalid-feedback">
+                Please provide your full name.
+              </div>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4">
+              <label for="email">Email*:</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+              <div class="invalid-feedback">
+                  Please provide an email address.
+                </div>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-4">
+              <label class="my-1 mr-2" for="inlineFormCustomSelectPref">What model are you inquiring about?*</label>
+              <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="inlineFormCustomSelectPref" required>
+                <option selected>Choose...</option>
+                <option value="1">Priority Proto Model</option>
+                <option value="2">Priority Onyx Model</option>
+                <option value="3">Priority Gotham Model</option>
+                <option value="4">Priority Biddle Model</option>
+                <option value="5">Priority Embark Model</option>
+                <option value="6">Priority Glide Model</option>
+                <option value="7">Priority Coast Model</option>
+                <option value="8">Priority L Train Model</option>
+              </select>
+              </div>
+            </div>
+          <div class="form-row">
+            <div class="col-8">
+            <label for="reasontext">Details regarding inquiry*:</label>
+            <textarea class="form-control" id="reasontext" name="reasontext" placeholder="Please describe the reason for contact" rows="3" required></textarea>
+            <div class="invalid-feedback">
+              Please provide the reason for inquiry.
+            </div>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          </div>
+          </div>
+          <h6>If you have any additional document(s) relating to your issue, please upload them below.</h6>
+          <div class="form-row">
+            <div class="col-8">
+          <div class="input-group mb-3">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="custom-file-input" name="custom-file-input">
+              <label class="custom-file-label" for="custom-file-input">Choose file</label>
+            </div>
+            <div class="input-group-append">
+              <span class="input-group-text" id="">Upload</span>
+            </div>
+          </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit inquiry</button>
+            </form>
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function() {
+                  'use strict';
+                  window.addEventListener('load', function() {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                      form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                          event.preventDefault();
+                          event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                      }, false);
+                    });
+                  }, false);
+                })();
+                </script>
+              <div class="container-fluid secondrow bannerdown">
+                  <footer>
+                   <img class="logoimage" src="prioritylogo.png" alt="Priority Logo">
+                  <div class="row">
+                  <div class="col footerleft ">
+                   <h3><strong>Contact Us</strong></h3>
+                      <p>We are here to satisfy all your bicycle needs. <br> For our fastest response:</p>
+                       <p>Email: <a href="mailto:mohammed.malik36@gmail.com">Gmail</a></p>
+                      <p>Text: (1)-347-706-5169</p>
+                      </div>
+                       <div class="col borderline">
+                      <h3><strong>Subscribe!</strong></h3>
+                     <p>Join to become a Priority Community member <br> and receive exclusive offers and product information</p>
+                     </div>
+                    </div>
+                  </footer>
+                 </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
