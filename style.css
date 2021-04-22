@@ -1,0 +1,289 @@
+*{
+    box-sizing:border-box;
+}
+
+.navbar-wrapper{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+  }
+
+  .carousel-item {
+    height: 600px;
+  }
+
+  .cimage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    height: 600px;
+  }
+
+  .aimage{
+      position: absolute;
+      margin-top:100px;
+      margin-left:360px;
+      height:300px;
+  }
+
+  .bimage{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 300px;
+  }
+
+  .navbar-cart{
+    overflow:hidden;
+  }
+
+  .background-image{
+    background-image:url(prioritybikebanner.jpg);
+    background-size:cover;
+    padding-top:10%;
+    padding-bottom:10%;
+}
+
+  .carousel-indicators li {
+    background-color: white;
+  }
+  
+  .carousel-indicators .active {
+    background-color:green;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.htext{
+  display:inline-block;
+  color:gold;
+  font-weight:bold;
+  background-color:black;
+}
+
+.ctext{
+  display:inline-block;
+  color:white;
+  font-weight:bold;
+  background-color:black;
+}
+
+.carda{
+height:325px;
+}
+
+.carousel-caption{
+  position: absolute;
+  margin-bottom:30px;
+}
+
+.navbar-nav {
+  margin-left:450px;
+}
+
+.line{
+  border-top: 1px solid grey;
+  width:100%;
+}
+
+.spacerow{
+  border-top: solid 10px transparent;
+  border-bottom: solid 10px transparent;
+}
+
+.text-right1{
+  position: absolute;
+  margin-left:400px;
+}
+
+.cardcolor{
+  background-color:grey;
+}
+
+.cardbodypad{
+  padding-top:30px;
+}
+
+.cardfootpad{
+  padding:15px;
+}
+
+.success{
+  color:green;
+}
+
+.centertext{
+  text-align:center;
+}
+
+.centertext2{
+  margin-right:500px;
+  margin-left:500px;
+}
+
+.centertext3{
+  margin-left:10px;
+}
+
+.logoimage{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:50%
+}
+
+.secondrow{
+  color:white;
+  background-color:black;
+}
+
+.borderline{
+  border-left:3px solid grey;
+  display:inline-block;
+  margin-right:360px;
+  padding-left:70px;
+
+}
+
+.footerleft{
+  margin-left:420px;
+}
+
+.footertop{
+  margin-top:20px
+}
+
+.headtop{
+  margin-top:60px;
+}
+
+.formpadding{
+  padding-left:50px;
+  
+}
+
+.background-image2a{
+  background-image:url(buildingbicycle.jpg);
+  background-size:cover;
+  
+}
+
+.background-image2b{
+  background-image:url(buildingbicycle.jpg);
+  background-size:cover;
+  padding-bottom:10%;
+  padding-top:10%;
+}
+
+.whitetext{
+  color:black;
+}
+
+.background-image3{
+  background-image:url(rsz_blurbicycle.jpg);
+    background-size:cover;
+    padding-top:10%;
+    padding-bottom:10%;
+}
+
+.background-image4{
+  background-image:url(rsz_blurbicycle.jpg);
+  background-size:cover;
+  padding-top:10%;
+  padding-bottom:10%;
+}
+
+.indenttext{
+  margin-left:100px;
+}
+
+.indenttext2{
+  margin-left:200px;
+}
+
+.indenttext3{
+  margin-right:700px;
+  margin-left:150px;
+  padding-bottom:2%;
+  
+}
+
+.cartimage{
+  height:100px;
+  width:115px;
+}
+
+.shopbutton{
+  text-decoration: none;
+}
+
+.textred{
+  color:red;
+}
+
+.nodown{
+  margin-bottom:0px;
+}
+
+.buttonpad{
+  padding-bottom:10px;
+}
+
+.cartdown{
+  margin-top:30px;
+}
+
+.carouseldown{
+  margin-top:50px;
+}
+
+.contactdown{
+  margin-top:60px;
+}
+
+.carousel-inner{
+  height:550px;
+}
+
+.carousel-caption{
+  position: absolute;
+  margin-bottom:85px;
+}
+
+.jumbodown{
+  margin-bottom:0px;
+}
+
+.legendwidth{
+  max-width:10%;
+}
+
+.h2text{
+  display:block;
+  color:white;
+  font-weight:bold; 
+}
+
+.bannerdown{
+  margin-top:20px;
+}
+
+.homebackground{
+  padding-top:2%;
+  background-color:#3d4c4f;
+  padding-bottom:2%;
+}
+
+.paddingdown{
+  padding-top:5%
+}
